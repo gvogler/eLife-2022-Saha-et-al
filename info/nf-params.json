@@ -1,0 +1,8 @@
+{
+    "input": "Samplesheet.csv",
+    "genome": "GRCh37",
+    "fasta": "s3:\/\/ngi-igenomes\/igenomes\/Homo_sapiens\/Ensembl\/GRCh37\/Sequence\/WholeGenomeFasta\/genome.fa",
+    "gtf": "s3:\/\/ngi-igenomes\/igenomes\/Homo_sapiens\/Ensembl\/GRCh37\/Annotation\/Genes\/genes.gtf",
+    "gene_bed": "s3:\/\/ngi-igenomes\/igenomes\/Homo_sapiens\/Ensembl\/GRCh37\/Annotation\/Genes\/genes.bed",
+    "star_index": "s3:\/\/ngi-igenomes\/igenomes\/Homo_sapiens\/Ensembl\/GRCh37\/Sequence\/STARIndex\/"
+}

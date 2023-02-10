@@ -1,0 +1,57 @@
+----------------------------------------------------
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~\
+  |\ | |__  __ /  ` /  \ |__) |__         }  {
+  | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                        `._,._,'
+  nf-core/rnaseq v3.0
+----------------------------------------------------
+
+Run Name: evil_euclid
+
+## nf-core/rnaseq execution completed successfully! ##
+
+
+
+
+The workflow was completed at 2022-06-02T01:19:47.079-07:00 (duration: 15h 42m 21s)
+
+The command used to launch the workflow was as follows:
+
+  nextflow run nf-core/rnaseq -r 3.0 -profile docker -params-file nf-params.json
+
+
+
+Pipeline Configuration:
+-----------------------
+ - revision: 3.0
+ - runName: evil_euclid
+ - containerEngine: docker
+ - container: docker.io/nfcore/rnaseq:latest
+ - launchDir: /data/gvogler/Perrin
+ - workDir: /data/gvogler/Perrin/work
+ - projectDir: /home/gvogler/.nextflow/assets/nf-core/rnaseq
+ - userName: gvogler
+ - profile: docker
+ - configFiles: /home/gvogler/.nextflow/assets/nf-core/rnaseq/nextflow.config, /data/gvogler/Perrin/nextflow.config
+ - input: Samplesheet.csv
+ - genome: GRCh37
+ - fasta: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta/genome.fa
+ - gtf: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf
+ - gene_bed: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.bed
+ - star_index: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/STARIndex/
+ - igenomes_base: /data/gvogler/igenomes/
+ - Date Started: 2022-06-01T09:37:25.931-07:00
+ - Date Completed: 2022-06-02T01:19:47.079-07:00
+ - Pipeline script file path: /home/gvogler/.nextflow/assets/nf-core/rnaseq/main.nf
+ - Pipeline script hash ID: 4b892cc54e3b768dca93d19da30a907a
+ - Pipeline repository Git URL: https://github.com/nf-core/rnaseq
+ - Pipeline repository Git Commit: 3643a94411b65f42bce5357c5015603099556ad9
+ - Pipeline Git branch/tag: 3.0
+ - Nextflow Version: 21.03.0.edge
+ - Nextflow Build: 5518
+ - Nextflow Compile Timestamp: 05-03-2021 10:52 UTC
+
+--
+nf-core/rnaseq
+https://github.com/nf-core/rnaseq
